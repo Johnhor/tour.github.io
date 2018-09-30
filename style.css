@@ -451,10 +451,6 @@ header{
     padding: 10px 20px;
 }
 
-.sortpost select{
-	padding: 7px 20px;
-}
-
 
 .headComments:after{
    content: "";
