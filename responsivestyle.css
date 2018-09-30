@@ -257,8 +257,16 @@
        .booking{
        	text-align: center;
        }
-       .bookleft, .btnright{
-       	float: none;
+       .bookleft img{
+       	width: 30px!important;
+       	height: 30px;
+
+       }
+       .bookleft span{
+       	 font-size: 10px;
+       }
+       .btnright button{
+       	margin: 0;
        }
       
     }
