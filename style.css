@@ -814,6 +814,7 @@ header{
 	clear: both;
 }
 .listtrip{
+	display: none;
 	padding: 20px;
 	color: #868686;
 }
