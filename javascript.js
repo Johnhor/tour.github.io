@@ -175,7 +175,7 @@ function initMap() {
   /*responsive-menu toggle*/
   $(function(){
    $('#slidedownmenu').click(function(){
-     $('.main-menu').slideToggle('slow');
+     $('.main-menu').slideToggle('fast');
    });
 });
 
