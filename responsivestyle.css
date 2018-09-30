@@ -1,6 +1,6 @@
 /*header*/
 
-@media(max-width: 1205px){
+@media screen and (max-width: 1205px){
   header{
   	 display: grid;
   	 grid-template-columns: 1fr;
@@ -15,13 +15,13 @@
   	padding: 0;
   }
 }
-@media(min-width: 830px){
+@media screen and (min-width: 830px){
 	.main-menu{
 		display: block!important;
 	}
 }
 
-@media(max-width: 830px){
+@media screen and (max-width: 830px){
 	.main-menu{
 	display: none;
 	}
@@ -42,7 +42,7 @@
 
 /*SECTION01 FORM*/
 
- @media(max-width: 1215px){
+ @media screen and (max-width: 1215px){
  	.searchForm{
  		text-align: center;
  	}
@@ -51,7 +51,7 @@
  	 }
  }
 
- @media(max-width: 840px){
+ @media screen and (max-width: 840px){
  	.searchForm{
  		width: 60%;
  		margin: 0 auto;
@@ -75,7 +75,7 @@
  }
 
  /*SECTION02*/
-  @media(max-width: 1100px){
+  @media screen and (max-width: 1100px){
     .explore{
     	display: block;
     	text-align: center;
@@ -85,18 +85,23 @@
     }
 
  }
+ @media screen and (max-width: 350px){
+    .btnexploreMore{
+    	width: 100%;
+    }
+ }
 
 /*SECTION03*/
- @media(max-width: 940px){
+ @media screen and (max-width: 940px){
  	 .columns{
  	    display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        grid-column-gap: 29px;
-        grid-row-gap: 30px;
-        margin-top: 40px;
-        margin-bottom: 40px;
-        text-align: center;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            grid-column-gap: 29px;
+            grid-row-gap: 30px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            text-align: center;
  	 }
  }
 
@@ -133,7 +138,7 @@
 
 /*SECTION06*/
 
-  @media(max-width: 1020px){
+  @media screen and (max-width: 1020px){
      .containerform{
      	 display: grid;
      	 grid-template-columns: 1fr 400px; 
@@ -141,7 +146,7 @@
      }
   }
 
-  @media(max-width: 770px){
+  @media screen and (max-width: 770px){
   	.containerform{
   		 display: grid;
   		 grid-template-columns: 1fr;
@@ -153,7 +158,7 @@
   
   }
 
-  @media(max-width: 430px){
+  @media screen and (max-width: 430px){
   	.form01, .form02, .form03{
   		display: grid;
   		grid-template-columns: 1fr;
@@ -168,7 +173,7 @@
 
   /*SECTION07*/
 
-    @media(max-width: 520px){  
+    @media screen and (max-width: 520px){  
        .reviews{
        	 float: none;
        	 text-align: center;
@@ -181,7 +186,7 @@
    }
 
 
-    @media(max-width: 760px){
+    @media screen and (max-width: 760px){
     	 .containerComments{
     	 	display: grid;
             grid-template-columns: 1fr;
@@ -212,7 +217,7 @@
     	 	width: 100%;
     	 }
     }
-    @media(max-width: 350px){
+    @media screen and (max-width: 350px){
     	.sortpost > select{
     		margin: 0;
     		margin-bottom: 10px;
@@ -223,7 +228,7 @@
 
     /*SECTION08*/
 
-    @media(max-width: 980px){
+    @media screen and (max-width: 980px){
        .itemblock{
        	  display: grid;
           grid-template-columns: repeat(2, 1fr);
@@ -234,7 +239,7 @@
 
     }
 
-    @media(max-width: 620px){
+    @media screen and (max-width: 620px){
          .itemblock{
        	    display: grid;
             grid-template-columns: 1fr;
@@ -245,7 +250,7 @@
       
     }
 
-    @media(max-width: 400px){
+    @media screen and (max-width: 400px){
        .topleftbox p{
        	   font-size: 10px;
        }
@@ -261,7 +266,7 @@
 
     /*footer*/
 
-      @media(max-width: 500px){
+      @media screen and (max-width: 500px){
          .footer{
          	 text-align: center;
          }
@@ -278,10 +283,18 @@
           }
       }
 
+@media screen and (max-width: 350px){
+   .linkfooter li{
+	   display: block;
+	   margin: 0;
+	   margin-top: 5px;
+	   
+	}
+}
 
       /*modal*/
 
-      @media(max-width: 500px){
+      @media screen and (max-width: 500px){
           .logForm{
           	margin: 50% auto 15% auto;
           }
