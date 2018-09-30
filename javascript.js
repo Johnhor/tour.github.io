@@ -86,16 +86,55 @@ $(function(){
 
 /*toggle's block carousel---------------------*/
 
+/*toggle select*/
+   $(function(){
+   $('.selectarrow01').click(function(){
+     $('.listlist01').slideToggle('slow');
+   });
+});
+     $(function(){
+   $('.selectarrow02').click(function(){
+     $('.listlist02').slideToggle('slow');
+   });
+});
+       $(function(){
+   $('.selectarrow03').click(function(){
+     $('.listlist03').slideToggle('slow');
+   });
+});
+         $(function(){
+   $('.selectarrow04').click(function(){
+     $('.listlist04').slideToggle('slow');
+   });
+});
+           $(function(){
+   $('.selectarrow05').click(function(){
+     $('.listlist05').slideToggle('slow');
+   });
+});
+             $(function(){
+   $('.selectarrow06').click(function(){
+     $('.listlist06').slideToggle('slow');
+   });
+});
+               $(function(){
+   $('.selectarrow07').click(function(){
+     $('.listlist07').slideToggle('slow');
+   });
+});
+                 $(function(){
+   $('.selectarrow08').click(function(){
+     $('.listlist08').slideToggle('slow');
+   });
+});
+
 /*toggle destination*/
-  
-
-
-
  $(function(){
    $('.destination').click(function(){
      $('.listDestination').slideToggle('slow');
    });
 });
+
  /*toggle trip*/
   $(function(){
    $('.triptype').click(function(){
