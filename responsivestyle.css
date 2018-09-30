@@ -275,7 +275,12 @@
 	 .description p{
 	     font-size: 10px;
 	   } 
+	 .listDestination{
+              display: none;
+	   }
 }  
+
+ 
 
     /*footer*/
 
