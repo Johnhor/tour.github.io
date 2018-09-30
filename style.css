@@ -176,6 +176,9 @@ header{
 	color: #b7b7b7;
 	opacity: 1;
 }
+.searchForm{
+	text-align: center;
+}
 .searchForm  input[type=text], select, .search01{
 	margin-right: 20px;
 	
@@ -187,9 +190,6 @@ header{
 	width: 23%;
 }
 
-.searchForm select{
-	width: 23%;
-}
 .search01{
 	color: #ffffff;
 	margin-right: 0;
